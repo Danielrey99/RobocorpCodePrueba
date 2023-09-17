@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "d:/TRABAJO/RobocorpCodePrueba/Prueba_DiligenciarHojaCalculo/."
+    ],
+    "python.terminal.activateEnvironment": false
+}
