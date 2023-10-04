@@ -1,6 +1,6 @@
 {
     "python.analysis.extraPaths": [
-        "d:/TRABAJO/RobocorpCodePrueba/Prueba_DiligenciarHojaCalculo/."
+        "e:/TRABAJO/RobocorpCodePrueba/Prueba_11GoogleSheetDiligenciarFormulario/."
     ],
     "python.terminal.activateEnvironment": false
 }

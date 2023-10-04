@@ -1,0 +1,13 @@
+1.Access the Google APIs Console while logged into your Google account.(https://console.cloud.google.com/projectselector2/apis/dashboard?pli=1&supportedpurview=project)
+2.Create a new project and give it a name.
+3.Click on ENABLE APIS AND SERVICES.
+4.Find and enable the Google Sheet API.
+5.Crear Credenciales-->Cuenta de servicio
+6.Click en la cuneta creada
+7.Ir a la pestaña claves
+8.Añadir clave
+9.selecciona el json
+10.Se descargara el json. cambiale el nombre a service_account.json
+11.Obtener el id del link de la hoja de calculo (es lo que pone en la url despues de /d/ y finaliza con /)
+
+12.Al pasar el rango en el programa debemos pasar el nombre de la pagina correcto (${SHEET_RANGE}    Sheet1!A2:D10)(Sheet1 seria el nombre)

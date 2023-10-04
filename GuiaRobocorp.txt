@@ -1,0 +1,39 @@
+--CREAR ROBOT:
+-cntrl +shift +p
+-Robocorp:Create Robot
+-Selecciona la plantilla que prefieras
+("Robot Framework - Minimal" o "Python - Minimal")
+-Seleccionar usar carpeta abierta o crear en un hijo
+
+--RUN ROBOT:
+-cntrl +shift +p
+-Robocorp:Run Robot
+-Si tienes varios en el mismo directorio eliga cual ejecutar.
+
+--shift + 4 para escribir $
+
+--Subir y ejecutar robot en la nube
+(Robocorp Cloud)
+Linkear ambiente de trabajo
+-cntrl +shift +p
+-Robocorp: Link to Controll Room
+pulsar enter en el buscador de vs y nos lleva a Acces Credentials.
+crear nueva credencial
+ver y copiar el coredencial
+pegarla en el buscador de vs (debe salir un aviso de succesfully loged in Control Room)
+-cntrl +shift +p
+-Robocorp: Upload Robot to the Control Room
+-Create new Robot (No para crear robot nuevo sino para subirlo a la nuve)
+-Ponerle nombre al robot subido (debe salir un aviso de succesfully submited)
+-Ir a pestaña Processes
+-Crear un proceso y ponerle nombre
+-añadirle un robot al proceso & selecionar el entorno(por ahora cloud enviroment)
+-se puede añadir unn shedule estableciendo un tiempo
+-Darle a run y se verá el proceso correr
+-Cuando acabe pasara de Procesing a Completed
+-hacer click en el proceso y se vera el console output
+
+--Desvincular vs code de control room
+-cntrl +shift +p
+-Robocorp: Unlink and remove credentials from Control Room
+
